@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Chela One";
+
 *{
   margin:0;
   padding: 0;
@@ -55,6 +55,7 @@ p{
 .navbar{
   position: absolute;
   background-color: black;
+  font-family: 'Marmelad',sans-serif;
 }
 
 .navbar .navbar-brand{
@@ -138,13 +139,16 @@ text-align: right;
 
 #Home h2{
   color: #fff;
-  font-size: 3vw;
+  font-size: 2.5vw;
   line-height: 1.2em;
+  font-family: 'Nosifer',sans-serif;
 }
 
 #Home p{
   font-size: 1.2rem;
   color:white;
+  font-family: 'Sniglet',sans-serif;
+
 }
 
 #Home .home-text{
@@ -154,19 +158,20 @@ text-align: right;
   position: relative;
 }
 
-#about h3{
+#about-us h1{
   font-size:17px;
   letter-spacing: 12px;
   text-transform: uppercase;
-  font-family: 'Chela One ', sans-serif;
+  font-family: 'Emilys Candy',sans-serif;
   font-weight: bold;
   color:brown;
 }
 
-#about h2{
+#about-us h2{
   font-size:22px;
   letter-spacing: 7px;
-  font-family: 'Aref Ruqaa', sans-serif;
+
+  font-family: 'Grenze',sans-serif;
   font-weight: bold;
 }
 
@@ -220,6 +225,11 @@ text-align: right;
 
 .zoom-item:hover img{
   transform:  scale(1.1);
+}
+
+#staffInfo {
+  font-family: 'Courgette', sans-serif;
+
 }
 
 .swiper-container {
@@ -296,4 +306,34 @@ input{
 
 #btnRecord{
   font-size: 30px;
+  color: pink;
+  border-color: pink;
+}
+
+#recordModal{
+  border-radius: 20px;
+  font-family: 'Courgette', sans-serif;
+}
+
+#recordModalLabel{
+  font-size: 35px;
+  font-family: 'Marmelad',sans-serif;
+  font-weight: bold;
+  color: black;
+}
+#recordModal input{
+  border-color: purple;
+}
+
+#recordModal button{
+  color: purple;
+  border-color: red;
+
+
+}
+
+#recordModal button:hover{
+  color: orange;
+  border-color: black;
+
 }
